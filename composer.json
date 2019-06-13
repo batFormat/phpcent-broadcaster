@@ -1,5 +1,5 @@
 {
-    "name": "batFormat/phpcent-broadcaster",
+    "name": "batformat/phpcent-broadcaster",
     "type": "library",
     "description": "Centrifuge broadcaster for laravel >= 5.3, support Centrifuge v2",
     "keywords": ["laravel", "centrifuge", "centrifugo", "broadcaster"],
