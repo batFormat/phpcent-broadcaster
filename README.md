@@ -1,6 +1,8 @@
 <h1 align="center">Centrifuge Broadcaster for Laravel 5</h1>
 
 ## Introduction
+Inspired by [laracomponents/centrifuge-broadcaster](https://github.com/laracomponents/centrifuge-broadcaster)
+
 Centrifuge broadcaster for laravel >= 5.3
 
 ## Requirements
@@ -16,7 +18,7 @@ Centrifuge broadcaster for laravel >= 5.3
 Require this package with composer:
 
 ```bash
-composer require theardent/centrifuge-broadcaster
+composer require batFormat/phpcent-broadcaster
 ```
 
 Open your config/app.php and add the following to the providers array:
@@ -150,4 +152,4 @@ class ExampleController extends Controller
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/TheArdent/centrifuge-broadcaster/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/batFormat/phpcent-broadcaster/blob/master/LICENSE) for more information.
