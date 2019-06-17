@@ -14,16 +14,15 @@
             "email": "stenin.nikita@gmail.com"
         }
     ],
-    "homepage": "https://github.com/TheArdent/centrifuge-broadcaster",
+    "homepage": "https://github.com/batFormat/phpcent-broadcaster",
     "support": {
-        "issues": "https://github.com/TheArdent/centrifuge-broadcaster/issues",
-        "source": "https://github.com/TheArdent/centrifuge-broadcaster"
+        "issues": "https://github.com/batFormat/phpcent-broadcaster/issues",
+        "source": "https://github.com/batFormat/phpcent-broadcaster"
     },
     "require": {
         "php": ">=5.6.4",
         "predis/predis": "^1.1",
-        "illuminate/broadcasting": "^5.3",
-        "sl4mmer/phpcent": "dev-master"
+        "illuminate/broadcasting": "^5.3"
     },
     "require-dev": {
         "orchestra/testbench": "^3.3",
@@ -31,18 +30,18 @@
     },
     "autoload": {
         "psr-4": {
-            "TheArdent\\Centrifuge\\": "src/"
+            "BatFormat\\Centrifuge\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TheArdent\\Centrifuge\\Test\\": "tests/"
+            "BatFormat\\Centrifuge\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "TheArdent\\Centrifuge\\CentrifugeServiceProvider"
+                "BatFormat\\Centrifuge\\CentrifugeServiceProvider"
             ]
         }
     },

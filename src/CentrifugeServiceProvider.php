@@ -1,6 +1,6 @@
 <?php
 
-namespace TheArdent\Centrifuge;
+namespace BatFormat\Centrifuge;
 
 use Predis\Client as RedisClient;
 use Illuminate\Support\ServiceProvider;
@@ -40,7 +40,7 @@ class CentrifugeServiceProvider extends ServiceProvider
             return new Centrifuge($config, $redis);
         });
 
-        $this->app->alias('centrifuge', 'TheArdent\Centrifuge\Centrifuge');
-        $this->app->alias('centrifuge', 'TheArdent\Centrifuge\Contracts\Centrifuge');
+        $this->app->alias('centrifuge', 'BatFormat\Centrifuge\Centrifuge');
+        $this->app->alias('centrifuge', 'BatFormat\Centrifuge\Contracts\Centrifuge');
     }
 }

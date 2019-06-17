@@ -1,12 +1,12 @@
 <?php
 
-namespace TheArdent\Centrifuge;
+namespace BatFormat\Centrifuge;
 
 use Exception;
 use Illuminate\Broadcasting\BroadcastException;
 use Illuminate\Broadcasting\Broadcasters\Broadcaster;
 use Symfony\Component\HttpKernel\Exception\HttpException;
-use TheArdent\Centrifuge\Contracts\Centrifuge as CentrifugeContract;
+use BatFormat\Centrifuge\Contracts\Centrifuge as CentrifugeContract;
 
 class CentrifugeBroadcaster extends Broadcaster
 {
@@ -14,14 +14,14 @@ class CentrifugeBroadcaster extends Broadcaster
     /**
      * The Centrifuge SDK instance.
      *
-     * @var \TheArdent\Centrifuge\Contracts\Centrifuge
+     * @var \BatFormat\Centrifuge\Contracts\Centrifuge
      */
     protected $centrifuge;
 
     /**
      * Create a new broadcaster instance.
      *
-     * @param  \TheArdent\Centrifuge\Contracts\Centrifuge $centrifuge
+     * @param  \BatFormat\Centrifuge\Contracts\Centrifuge $centrifuge
      */
     public function __construct(CentrifugeContract $centrifuge)
     {
@@ -105,7 +105,7 @@ class CentrifugeBroadcaster extends Broadcaster
     /**
      * Get the Centrifuge instance.
      *
-     * @return \TheArdent\Centrifuge\Contracts\Centrifuge
+     * @return \BatFormat\Centrifuge\Contracts\Centrifuge
      */
     public function getCentrifuge()
     {

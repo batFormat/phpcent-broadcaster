@@ -1,14 +1,13 @@
 <?php
 
-namespace TheArdent\Centrifuge;
+namespace BatFormat\Centrifuge;
 
 use Exception;
-use phpcent\Client;
 use Predis\PredisException;
 use Predis\Client as RedisClient;
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\Exception\ClientException;
-use TheArdent\Centrifuge\Contracts\Centrifuge as CentrifugeContract;
+use BatFormat\Centrifuge\Contracts\Centrifuge as CentrifugeContract;
 
 class Centrifuge implements CentrifugeContract
 {

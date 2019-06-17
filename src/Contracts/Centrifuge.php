@@ -1,6 +1,6 @@
 <?php
 
-namespace TheArdent\Centrifuge\Contracts;
+namespace BatFormat\Centrifuge\Contracts;
 
 interface Centrifuge
 {
